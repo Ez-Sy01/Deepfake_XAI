@@ -9,8 +9,8 @@ We use visualization methods like **Grad-CAM**, **LIME**, and **SHAP** to interp
 ## 🧠 Supported XAI Methods
 
 - [x] Grad-CAM  
-- [x] LIME  
-- [x] SHAP  
+- [ ] LIME  
+- [ ] SHAP  
 - [ ] Integrated Gradients (coming soon)
 
 ## 🚀 Quick Start
