@@ -35,9 +35,8 @@ git clone https://github.com/yourusername/deepfake-xai.git
 cd deepfake-xai
 ```
 ### 2. Install dependencies
-```
-pip install -r requirements.txt
-```
+-> we do not provide requirements.txt
+
 ### 3. Run Grad-CAM by FreqNet
 ```
 python run_gradcam.py --image_path examples/fake1.jpg --model_path weights/model.pth
