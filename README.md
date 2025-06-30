@@ -8,16 +8,17 @@ You can download the entire project as a ZIP file
 -> https://huggingface.co/spaces/Ez-SY01/DF_SW_XAI/resolve/main/DeepSCAN_XAI.zip
 
 ## 📂 Project Structure
+```
 ├── gradio
   ├── algorithms/ # Pretrained models or model algorithmss<br>
   ├── FreqNet/ # XAI methods (e.g., GradCAM, LIME, SHAP)<br>
     ├── Grad_FreqNet/ # main Deepfake algorithm<br>
     ├── GradCAM/ # Grad-CAM main code<br>
   ├── SW_GradCAM.py # Script to run GRADCAM<br>
-├─ example_fake_image.png
-├─ example_real_image.jpg
+├─ example_fake_image.png<br>
+├─ example_real_image.jpg<br>
 └── README.md
-
+```
 ## 🧠 Supported XAI Methods
 
 - [x] Grad-CAM  
