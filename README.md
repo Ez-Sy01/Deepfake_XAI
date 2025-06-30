@@ -3,7 +3,7 @@
 This repository contains code implementations for applying Explainable AI (XAI) techniques to deepfake detection models.  
 We use visualization methods like **Grad-CAM**, **LIME**, and **SHAP** to interpret model decisions.
 
-## 📦 Download
+## 📦 Download Project
 You can download the entire project as a ZIP file
 -> https://huggingface.co/spaces/Ez-SY01/DF_SW_XAI/resolve/main/DeepSCAN_XAI.zip
 
