@@ -43,7 +43,7 @@ python SW_GradCAM.py
 ```
 After running, the local and public links will remain active for one week.
 
-📝 Notes
+## 📝 Notes
 The pretrained model used is based on XceptionNet trained on FaceForensics++.
 
 All outputs are class-specific explanations (Real vs. Fake).
