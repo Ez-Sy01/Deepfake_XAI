@@ -39,8 +39,9 @@ cd deepfake-xai
 
 ### 3. Run Grad-CAM by FreqNet
 ```
-python run_gradcam.py --image_path examples/fake1.jpg --model_path weights/model.pth
+python SW_GradCAM.py
 ```
+After running, the local and public links will remain active for one week.
 
 📝 Notes
 The pretrained model used is based on XceptionNet trained on FaceForensics++.
