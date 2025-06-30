@@ -7,13 +7,12 @@ We use visualization methods like **Grad-CAM**, **LIME**, and **SHAP** to interp
 You can download the entire project as a ZIP file: https://huggingface.co/spaces/Ez-SY01/DF_SW_XAI/resolve/main/gradio.zip
 
 ## 📂 Project Structure
-├── models/ # Pretrained models or model definitions<br>
-├── xai/ # XAI methods (e.g., GradCAM, LIME, SHAP)<br>
-├── examples/ # Example images and XAI visualization outputs<br>
-├── utils/ # Utility functions (e.g., preprocessing)<br>
-├── run_gradcam.py # Script to run GradCAM<br>
-├── run_lime.py # Script to run LIME<br>
-├── run_shap.py # Script to run SHAP<br>
+├── gradio
+  ├── algorithms/ # Pretrained models or model algorithmss<br>
+    ├── FreqNet/ # XAI methods (e.g., GradCAM, LIME, SHAP)<br>
+    ├── Grad_FreqNet/ # main Deepfake algorithm<br>
+    ├── GradCAM/ # Grad-CAM main code<br>
+  ├── SW_GradCAM.py # Script to run GRADCAM<br>
 └── README.md
 
 ## 🧠 Supported XAI Methods
