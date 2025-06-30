@@ -10,10 +10,12 @@ You can download the entire project as a ZIP file
 ## 📂 Project Structure
 ├── gradio
   ├── algorithms/ # Pretrained models or model algorithmss<br>
-    ├── FreqNet/ # XAI methods (e.g., GradCAM, LIME, SHAP)<br>
+  ├── FreqNet/ # XAI methods (e.g., GradCAM, LIME, SHAP)<br>
     ├── Grad_FreqNet/ # main Deepfake algorithm<br>
     ├── GradCAM/ # Grad-CAM main code<br>
   ├── SW_GradCAM.py # Script to run GRADCAM<br>
+├─ example_fake_image.png
+├─ example_real_image.jpg
 └── README.md
 
 ## 🧠 Supported XAI Methods
