@@ -4,7 +4,14 @@ This repository contains code implementations for applying Explainable AI (XAI) 
 We use visualization methods like **Grad-CAM**, **LIME**, and **SHAP** to interpret model decisions.
 
 ## 📂 Project Structure
-
+├── models/ # Pretrained models or model definitions
+├── xai/ # XAI methods (e.g., GradCAM, LIME, SHAP)
+├── examples/ # Example images and XAI visualization outputs
+├── utils/ # Utility functions (e.g., preprocessing)
+├── run_gradcam.py # Script to run GradCAM
+├── run_lime.py # Script to run LIME
+├── run_shap.py # Script to run SHAP
+└── README.md
 
 ## 🧠 Supported XAI Methods
 
